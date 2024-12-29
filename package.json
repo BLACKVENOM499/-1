@@ -1,12 +1,12 @@
 {
 "name": "web-pair",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name prabath",
-      "stop": "pm2 stop prabath",
-     "restart": "pm2 restart prabath"
+      "start": "pm2 start index.js --deep-monitoring --attach --name venom",
+      "stop": "pm2 stop venom",
+     "restart": "pm2 restart venom"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
